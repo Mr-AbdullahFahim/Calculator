@@ -1,0 +1,459 @@
+*{
+	font-family: poppins,sans-serif;
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	margin-bottom: 100px;
+}
+.hide{
+	display: none;
+}
+.body2{
+	animation: backchange1 0.3s ease;
+}
+.body1{
+	animation: backchange 0.3s ease;
+	background: #202020;
+}
+.button-list{
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+}
+.buttons{
+	width:85px;
+	height: 60px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 15px 8px 8px 8px;
+	box-shadow: 3px 3px 10px -4px #606060;
+	border-radius: 30px;
+	padding: 0px;
+	font-size: 25px;
+	color: #505050;
+	font-weight: 550;
+}
+.buttons1{
+	box-shadow: 3px 3px 10px -4px black;
+	color: orange;
+}
+
+.screen{
+	display: inline-flex;
+	width: 400px;
+	height: 105px;
+	margin: 0 auto 10px auto;
+	border-radius: 25px;
+	box-shadow: inset 3px 3px 10px -4px;
+	border: none;
+	justify-content: flex-end;
+	align-items: flex-end;
+	padding: 15px;
+	font-size: 60px;
+	overflow: hidden;
+	color: #505050;
+}
+.zero{
+	width: 190px;
+}
+.addButton{
+	height: 143px;
+	border-radius: 35px;
+}
+.equalButton{
+	height: 143px;
+	border-radius: 35px;
+}
+.screen1{
+	box-shadow: inset 3px 3px 10px -4px black;
+	color: white;
+}
+.container{
+	display: grid;
+	width: 420px;
+	margin: 0 auto 0 auto;
+	//justify-content: center;
+}
+.buttons:hover{
+	color: white;
+	background: #606060;
+	cursor: pointer;
+}
+.buttons1:hover{
+	background: orange;
+}
+.toggle{
+	width: 70px;
+	height: 30px;
+	border-radius: 20px;
+	margin: 40px auto 40px auto;
+	padding: 0;
+	box-shadow: inset 3px 3px 10px -4px;
+	overflow: hidden;
+}
+.toggle:hover{
+	cursor: pointer;
+}
+.circleToggle{
+	width: 30px;
+	height: 30px;
+	border-radius: 20px;
+	background: white;
+	opacity: 75%;
+	box-shadow: 3px 3px 10px -4px #606060;
+}
+.toggle:hover .circle .circleToggle{
+	opacity: 55%;
+	background: darkgray;
+}
+.circleToggle1{
+	background: orange;
+	opacity: 100%;
+}
+.toggle:hover .circle .circleToggle1{
+	opacity: 75%;
+	background: azure;
+}
+.sun{
+	margin: 0 0 0 5px;
+}
+.circle{
+	display: grid;
+	grid-template-columns:35px 35px 35px;
+	grid-template-rows: 1fr;
+	align-items: center;
+	transform: translateX(5px);
+	transition: transform 0.4s ease-in-out;
+}
+.moon{
+	margin: 0 0 0 8px;
+}
+.change{
+	transform: translateX(-36px);
+}
+.left-side{
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 1fr;
+}
+
+
+
+@keyframes backchange{
+	0%{
+		background: radial-gradient(circle at top,#202020 0%,white 0%,white 100%);
+	}
+	2%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 2%,white 2%,white 100%);
+	}
+	4%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 4%,white 4%,white 100%);
+	}
+	6%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 6%,white 6%,white 100%);
+	}
+	8%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 8%,white 8%,white 100%);
+	}
+	10%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 10%,white 10%,white 100%);
+	}
+	12%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 12%,white 12%,white 100%);
+	}
+	14%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 14%,white 14%,white 100%);
+	}
+	16%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 16%,white 16%,white 100%);
+	}
+	18%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 18%,white 18%,white 100%);
+	}
+	20%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 20%,white 20%,white 100%);
+	}
+	22%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 22%,white 22%,white 100%);
+	}
+	24%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 24%,white 24%,white 100%);
+	}
+	26%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 26%,white 26%,white 100%);
+	}
+	28%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 28%,white 28%,white 100%);
+	}
+	30%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 30%,white 30%,white 100%);
+	}
+	32%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 32%,white 32%,white 100%);
+	}
+	34%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 34%,white 34%,white 100%);
+	}
+	36%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 36%,white 36%,white 100%);
+	}
+	38%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 38%,white 38%,white 100%);
+	}
+	40%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 40%,white 40%,white 100%);
+	}
+	42%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 42%,white 42%,white 100%);
+	}
+	44%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 44%,white 44%,white 100%);
+	}
+	46%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 46%,white 46%,white 100%);
+	}
+	48%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 48%,white 48%,white 100%);
+	}
+	50%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 50%,white 50%,white 100%);
+	}
+	52%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 52%,white 52%,white 100%);
+	}
+	54%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 54%,white 54%,white 100%);
+	}
+	56%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 56%,white 56%,white 100%);
+	}
+	58%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 58%,white 58%,white 100%);
+	}
+	60%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 60%,white 60%,white 100%);
+	}
+	62%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 62%,white 62%,white 100%);
+	}
+	64%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 64%,white 64%,white 100%);
+	}
+	66%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 66%,white 66%,white 100%);
+	}
+	68%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 68%,white 68%,white 100%);
+	}
+	70%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 70%,white 70%,white 100%);
+	}
+	72%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 72%,white 72%,white 100%);
+	}
+	74%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 74%,white 74%,white 100%);
+	}
+	76%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 76%,white 76%,white 100%);
+	}
+	78%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 78%,white 78%,white 100%);
+	}
+	80%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 80%,white 80%,white 100%);
+	}
+	82%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 82%,white 82%,white 100%);
+	}
+	84%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 84%,white 84%,white 100%);
+	}
+	86%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 86%,white 86%,white 100%);
+	}
+	88%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 88%,white 88%,white 100%);
+	}
+	90%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 90%,white 90%,white 100%);
+	}
+	92%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 92%,white 92%,white 100%);
+	}
+	94%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 94%,white 94%,white 100%);
+	}
+	96%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 96%,white 96%,white 100%);
+	}
+	98%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 98%,white 98%,white 100%);
+	}
+	100%{
+		background: radial-gradient(circle at top,#202020 0%,#202020 0%,#202020 100%);
+	}
+}
+
+@keyframes backchange1{
+	0% {
+    background: radial-gradient(circle at top, #202020 0%, #202020 100%);
+	}
+	2% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 98%, white 98%, white 100%);
+	}
+	4% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 96%, white 96%, white 100%);
+	}
+	6% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 94%, white 94%, white 100%);
+	}
+	8% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 92%, white 92%, white 100%);
+	}
+	10% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 90%, white 90%, white 100%);
+	}
+	12% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 88%, white 88%, white 100%);
+	}
+	14% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 86%, white 86%, white 100%);
+	}
+	16% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 84%, white 84%, white 100%);
+	}
+	18% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 82%, white 82%, white 100%);
+	}
+	20% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 80%, white 80%, white 100%);
+	}
+	22% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 78%, white 78%, white 100%);
+	}
+	24% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 76%, white 76%, white 100%);
+	}
+	26% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 74%, white 74%, white 100%);
+	}
+	28% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 72%, white 72%, white 100%);
+	}
+	30% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 70%, white 70%, white 100%);
+	}
+	32% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 68%, white 68%, white 100%);
+	}
+	34% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 66%, white 66%, white 100%);
+	}
+	36% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 64%, white 64%, white 100%);
+	}
+	38% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 62%, white 62%, white 100%);
+	}
+	40% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 60%, white 60%, white 100%);
+	}
+	42% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 58%, white 58%, white 100%);
+	}
+	44% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 56%, white 56%, white 100%);
+	}
+	46% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 54%, white 54%, white 100%);
+	}
+	48% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 52%, white 52%, white 100%);
+	}
+	50% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 50%, white 50%, white 100%);
+	}
+	52% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 48%, white 48%, white 100%);
+	}
+	54% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 46%, white 46%, white 100%);
+	}
+	56% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 44%, white 44%, white 100%);
+	}
+	58% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 42%, white 42%, white 100%);
+	}
+	60% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 40%, white 40%, white 100%);
+	}
+	62% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 38%, white 38%, white 100%);
+	}
+	64% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 36%, white 36%, white 100%);
+	}
+	66% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 34%, white 34%, white 100%);
+	}
+	68% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 32%, white 32%, white 100%);
+	}
+	70% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 30%, white 30%, white 100%);
+	}
+	72% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 28%, white 28%, white 100%);
+	}
+	74% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 26%, white 26%, white 100%);
+	}
+	76% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 24%, white 24%, white 100%);
+	}
+	78% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 22%, white 22%, white 100%);
+	}
+	80% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 20%, white 20%, white 100%);
+	}
+	82% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 18%, white 18%, white 100%);
+	}
+	84% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 16%, white 16%, white 100%);
+	}
+	86% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 14%, white 14%, white 100%);
+	}
+	88% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 12%, white 12%, white 100%);
+	}
+	90% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 10%, white 10%, white 100%);
+	}
+	92% {
+	    background: radial-gradient(circle at top, #202020 0%, #202020 8%, white 8%, white 100%);
+	}
+	94% {
+   		background: radial-gradient(circle at top, #202020 0%, #202020 6%, white 6%, white 100%);
+   	}
+   	96%{
+   		background: radial-gradient(circle at top, #202020 0%, #202020 4%, white 4%, white 100%);
+   	}
+   	98%{
+   		background: radial-gradient(circle at top, #202020 0%, #202020 2%, white 2%, white 100%);
+   	}
+   	100%{
+   		background: radial-gradient(circle at top, white 0%, white 100%);
+   	}
+
+}
